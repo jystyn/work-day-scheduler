@@ -1,4 +1,3 @@
-
 //This variable allows us to pull the current hour from moment.js
 //H allows us to use military time
 var now = parseInt(moment().format('H'));
@@ -22,5 +21,3 @@ function displayTime() {
 
 setInterval(displayTime, 1000);
 displayTime();
-
-
